@@ -12,6 +12,7 @@ def main():
                                                                       {a}[{t}05{a}]{m} Outlook Account Gen
                                                                       {a}[{t}06{a}]{m} Mediafire Bulk Downloader
                                                                       {a}[{t}07{a}]{m} Window Apps Downloader
+                                                                      {a}[{t}08{a}]{m} Backup
 ''')
     global choice
     choice = input(f'                                                          {a}Atom {t}==>>{m} ')
