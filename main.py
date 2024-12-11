@@ -1,4 +1,4 @@
-from modules.plugins.assets import *
+from util.utils.assets import *
 
 
 
@@ -7,36 +7,47 @@ def main():
     setTitle()
     homeTitle()
     print(f'''
-<<<<<<< HEAD
-                                                                      {a}[{t}01{a}]{m} Windows Activator
-                                                                      {a}[{t}02{a}]{m} Windows Optimizer
-                                                                      {a}[{t}03{a}]{m} Winrar Activator
-                                                                      {a}[{t}04{a}]{m} Mega Account Gen
-                                                                      {a}[{t}05{a}]{m} Outlook Account Gen
-                                                                      {a}[{t}06{a}]{m} Mediafire Bulk Downloader
-                                                                      {a}[{t}07{a}]{m} Window Apps Downloader
-                                                                      {a}[{t}08{a}]{m} Backup
-=======
-                                                                    {a}[{t}01{a}]{m} Windows Activator            {a}[{t}11{a}]{m} Linux Privacy Tool
-                                                                    {a}[{t}02{a}]{m} Windows Optimizer
+                                                                    {a}[{t}01{a}]{m} Windows Activator
+                                                                    {a}[{t}02{a}]{m} Windows Privacy Tool
                                                                     {a}[{t}03{a}]{m} Winrar Activator
                                                                     {a}[{t}04{a}]{m} Mega Account Gen
                                                                     {a}[{t}05{a}]{m} Outlook Account Gen
                                                                     {a}[{t}06{a}]{m} Mediafire Bulk Downloader
                                                                     {a}[{t}07{a}]{m} Window Apps Downloader
                                                                     {a}[{t}08{a}]{m} Wfifi Password Cracker
-                                                                    {a}[{t}09{a}]{m} Windows Privacy Tool
-                                                                    {a}[{t}10{a}]{m} MacOS Privacy Tool
->>>>>>> a124734c02350b5496c6396dd4a1cbdb8acfe1ec
+                                                                    {a}[{t}09{a}]{m} Linux Privacy Tool
 ''')
     global choice
     choice = input(f'                                                         {a}Atom {t}==>>{m} ')
     
-    if choice == '1':
+    if choice == '01':
         clear()
-        exec(open('modules/atlasos/atlas.py').read())
-    elif choice == '2':
+        exec(open('').read())
+    elif choice == '02':
         clear()
+        exec(open('util/02_Windowsprivacytool/windowsprivacytool.py').read())
+    elif choice == '03':
+        clear()
+        exec(open('').read())
+    elif choice == '04':
+        clear()
+        exec(open('').read())
+    elif choice == '05':
+        clear()
+        exec(open('').read())
+    elif choice == '06':
+        clear()
+        exec(open('').read())
+    elif choice == '07':
+        clear()
+        exec(open('').read())
+    elif choice == '08':
+        clear()
+        exec(open('').read())
+    elif choice == '09':
+        clear()
+        exec(open('').read())
+
                 
 
 if __name__ == "__main__":
