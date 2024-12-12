@@ -38,7 +38,6 @@ def apptool(path):
         print(f"Failed to elevate privileges: {e}")
 
 
-# privacytool(file)
 if __name__ == "__main__":
     clear()
     question()

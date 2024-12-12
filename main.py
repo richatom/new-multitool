@@ -37,7 +37,7 @@ def main():
         exec(open('').read())
     elif choice == '06':
         clear()
-        exec(open('').read())
+        exec(open('util/06_MediafireBulkDownloader/mediafire.py').read())
     elif choice == '07':
         clear()
         exec(open('').read())

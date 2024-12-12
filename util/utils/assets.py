@@ -9,12 +9,23 @@ try:
     import pyfiglet
     import keyboard
     import subprocess
-    
+    import certifi
+    import charset_normalizer
+    import gazpacho
+    import idna
+    import requests
+    import urllib3
 except ModuleNotFoundError:
     os.system('pip install termcolor')
     os.system('pip install pyfiglet')
     os.system('pip install keyboard')
     os.system('pip install subprocess')
+    os.system('pip install certifi')
+    os.system('pip install charset-normalizer')
+    os.system('pip install gazpacho')
+    os.system('pip install idna')
+    os.system('pip install requests')
+    os.system('pip install urllib3')
 
 a = Fore.LIGHTMAGENTA_EX
 t = Fore.LIGHTCYAN_EX
