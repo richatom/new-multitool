@@ -7,15 +7,14 @@ def main():
     setTitle()
     homeTitle()
     print(f'''
-                                                                    {a}[{t}01{a}]{m} Windows Activator
-                                                                    {a}[{t}02{a}]{m} Windows Privacy Tool
-                                                                    {a}[{t}03{a}]{m} Winrar Activator
-                                                                    {a}[{t}04{a}]{m} Mega Account Gen
-                                                                    {a}[{t}05{a}]{m} Outlook Account Gen
-                                                                    {a}[{t}06{a}]{m} Mediafire Bulk Downloader
-                                                                    {a}[{t}07{a}]{m} Window Apps Downloader
-                                                                    {a}[{t}08{a}]{m} Wfifi Password Cracker
-                                                                    {a}[{t}09{a}]{m} Linux Privacy Tool
+                                                                    [Windows Tools]         [Account Tools]           [Linux Tools
+
+
+
+
+
+
+
 ''')
     global choice
     choice = input(f'                                                         {a}Atom {t}==>>{m} ')
